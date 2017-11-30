@@ -10,15 +10,14 @@ class  SearchBar extends Component {
 
     render () {
         return (
-            <div>
-            <input  value={this.props.term} onChange = {this.props.handleChange} />
-            <br/>
-            value of the input: {this.props.term}
+            <div className="search-bar">
+                <input  value={this.props.term} onChange = {this.props.handleChange} />
             </div>
         );
     }
-    
+
 }
+
 
 
 
